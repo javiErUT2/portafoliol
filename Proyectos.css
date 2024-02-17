@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://images5.alphacoders.com/711/711093.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height: 100vh;
+}
+
+
+header {
+    background-color: #e8e8e8;
+    color: #e8e8e8;
+    padding: 10px;
+    text-align: center;
+
+}
+
+nav {
+    background-color: #e8e8e8;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    padding: 0;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    background-color: #858282;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #1f252b81;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 50%;
+}
+
+.project-card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.project-description {
+    margin-top: 10px;
+}
+
+.project-card a {
+    display: inline-block;
+    background-color: #3498db82;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+.project-card a:hover {
+    background-color: #3c6e8f;
+}
+
+
+.footer {
+    background-color: #1f82e500;
+    color: #818181;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+
+.footer a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    color: #3498db;
+}
+
+.icon {
+    font-size: 24px;
+    margin: 0 5px;
+    color: #dd1111;
+
+}
